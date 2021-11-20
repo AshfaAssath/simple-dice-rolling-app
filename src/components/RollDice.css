@@ -1,0 +1,75 @@
+form{
+    margin: 15px;
+}
+
+.increment-changer > button{
+    margin:10px;
+}
+
+.dices-output > .alert-success{
+    display: flex;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+form > div{
+    padding: 20px;
+    margin: 10px;
+}
+
+.dice-input> .form-group{
+    font-size: 20px;
+    padding:10px;
+}
+
+.dice-instructions{
+    font-size: 15px;
+}
+
+.dice-instructions> ul{
+    text-align: justify;
+}
+
+.dice-results> .dice-text> p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@keyframes wobble {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    15% {
+      transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    30% {
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    45% {
+      transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    60% {
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+  
+    75% {
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .shaking {
+    animation-name: wobble;
+    animation-duration: 1s;
+  }
+  

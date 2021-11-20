@@ -1,0 +1,23 @@
+.App {
+  padding:15px;
+  height:100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.app-title{
+  display: flex;
+}
+
+.app-title > h1{
+ margin: 5px;
+}
+img{
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+  height:90px;
+  width:90px;
+}
+
